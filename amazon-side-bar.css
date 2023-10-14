@@ -1,0 +1,76 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+ul li ul{
+  color: black;
+  background-color:#fff;
+}
+ul li ul li a{
+  float:none;
+  color:black;
+}
+ul li ul{
+  display:none;
+
+}
+.Signup-in-sidebar{
+  background-color:#37475A;
+  color: white;
+  width:100%;
+  height:65px;
+  padding-top:30px;
+  padding-left:80px;
+  font-size:16pt;
+  font-weight:bold;
+  
+}
+.Signup-in-sidebar a{
+  color: white;
+}
+.box-nav-1{
+  width:100%;
+  height:300px;
+  padding-top:20px;
+  padding-left: 70px;
+}
+.box-nav-2{
+  overflow:scroll;
+  width:100%;
+  height:400px;
+  padding-top:20px;
+  padding-left: 70px;
+  border-top:2px solid gainsboro;
+}
+li ul li{
+  padding:20px;
+}
+li select{
+  background-color:white;
+  color:black;
+  border:none;
+}
+/*---------------------------------------
+           HOVER EFFECTS 
+-----------------------------------------*/
+ul li:hover ul{
+  display: block;
+  width:70%;
+  height:2000px;
+  border-radius: 10px;
+  margin-left:-45px;
+  margin-top:-70px;
+  position: absolute;
+  z-index: 100;
+}
+/*--------------------------------------
+           A HOVER EFFECTS
+      WHEN YOU HOVER ON ANY TEXT
+-------++--+------+-----------------------*/
+li ul li a:hover{
+  color:red;
+  padding-left: 20px;
+  transition: .5s;
+  border-bottom:1px solid green;
+}

@@ -1,0 +1,395 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+background-color:white
+}
+/*--------------------------------------
+               NAVBAR 
+--------------------------------------*/
+.container{
+  width:100%;
+  
+  background-color:#232F3E;
+  color:white;
+}
+.nav{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+}
+.navbar-1{
+  width:20%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-2{
+  width:30%;
+  justify-content: space-around;
+}
+.logo{
+  font-family: monospace;
+  font-size: 20pt;
+  font-weight: 500;
+}
+.search-bar{
+  width:95%;
+  height:45px;
+  margin:10px;
+  border-radius:5px;
+  display:flex;
+  background: white;
+  
+}
+.search-bar input{
+  width:90%;
+  height:45px;
+  padding:10px;
+  border: none;
+  border-radius:5px;
+}
+.search-bar button{
+  width:10%;
+  background-color:orange;
+  border:none;
+  border-radius: 5px;
+}
+.head{
+  width:100%;
+  padding:10px;
+  height:auto;
+  clear: both;
+}
+.head a{
+  margin: 7px;
+  font-size: 9pt;
+}
+
+/*--------------------------------------
+               LOCATION 
+--------------------------------------*/
+.location{
+  clear:both;
+  width:100%;
+  height:50px;
+  background-color: #37475A;
+  padding: 10px;
+  padding-left:33px;
+}
+select{
+  border:none;
+  background-color:#37475A;
+  color:white;
+}
+
+/*--------------------------------------
+        MY FIRST BACKGROUND IMAGE 
+--------------------------------------*/
+.first-img{
+  width: 100%;
+  height: 356px;
+  background: red;
+}
+.bkg-1{
+  width:100%;
+  height:356px;
+}
+.on-bkg{
+  width:100%;
+  position: absolute;
+  top:520px;
+  background-color:lightgrey;
+}
+.first-img .on-bkg .in-bkg{
+  width:120px;
+}
+/*--------------------------------------
+      SIGN IN & CREATE ACCOUNT DIV
+--------------------------------------*/
+.sign-in{
+  width:100%;
+  height:150px;
+  background-color: white;
+  margin-top: 78px;
+}
+.sign-in h5{
+  padding: 15px;
+  font-size: 13pt;
+}
+.sign-in button{
+  width: 95%;
+  height: 45px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border:none;
+  border-radius: 10px;
+  background-color: #FFD814 ;
+  font-weight: 500;
+}
+.sign-in a{
+  color: royalblue;
+  font-size: 10pt;
+  font-weight: normal;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/*----------------------------------------
+           FIRST GALLERY BOX 
+ SAME STYLE APPLIED TO 1st, 2nd, 4th BOXES 
+-----------------------------------------*/
+
+.gallery-1{
+  width:100%;
+  height:px;
+}
+h4,span{
+  margin: 10px;
+}
+.box{
+  width:100%;
+  height:600px;
+  border-top:3px solid lightgrey;
+}
+.in-box{
+  width: 95%;
+  height:245px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 10pt;
+  margin:10px;
+}
+.in-box a img{
+  width:235px;
+  height:230px;
+  border-radius: 5px;
+}
+.box a{
+  color:royalblue;
+}
+
+/*--------------------------------------
+     DIFFERENT BOX ( BOX-3)
+--------------------------------------*/
+.box-3{
+  width:100%;
+  height:420px;
+  border-top: 3px solid lightgrey;
+}
+.earburd{
+  width:70%;
+  margin-left: 30%;
+}
+.box-3 button{
+  background-color:red;
+  color:white;
+  width: 60px;
+  height:30px;
+  border:none;
+  margin: 10px;
+}
+.box-3 .inbox-3 a{
+  color:red;
+  font-weight: bold;
+}
+.inbox-3s{
+  margin-left: 10px;
+}
+.box-3 span a{
+  color:royalblue;
+}
+
+/*--------------------------------------
+   5th & 9th BOX ONLY BOX WITH 9 BOXES 
+               INSIDE
+---------------------------------------*/
+.in-box-5{
+  width: 95%;
+  height:170px;
+  display: flex;
+  margin:10px;
+}
+.in-box-5 img{
+  width:100%;
+  height:100%;
+  padding:10px;
+}
+.in-box-5bkg{
+  width:100%;
+  background: #F7F8F8;
+  margin:5px;
+  border-radius:5px;
+}
+
+
+/*-------------------------------------
+FOR 6TH TO 8TH BOX AND FROM 10th TO 12th
+      THEY ARE DIFFERENT 
+---------------------------------------*/
+
+.in-box-6{
+  width: 95%;
+  height:245px;
+  display: flex;
+  margin: 10px;
+}
+.in-box-6 img{
+  width:100%;
+  height:100%;
+  padding:10px;
+}
+.in-box-6bkg{
+  width:100%;
+  background-color: #F7F8F8;
+  margin:5px;
+  border-radius:5px;
+}
+
+/*-----------------------------------------
+.      SECOND BACKGROUND IMAGE 
+------------------------------------------*/
+.second-bkg{
+  width:100%;
+  height:166px;
+  background-color: gainsboro;
+}
+.second-bkg img{
+  width:85%;
+  height:150px;
+  position: relative ;
+  left:40px;
+  margin-top: 7px;
+}
+
+/*-----------------------------------------
+BEFOR FOOTER THE LAST PART OF AMAZON 
+------------------------------------------*/
+
+.b4-footer{
+  width: 100%;
+  height:450px;
+  padding:10px;
+}
+.box-in-b4{
+  width:100%;
+  height:114px;
+  display:flex;
+  margin:10px;
+  
+}
+.b4-img{
+  width:20%;
+  height:110px;
+  background-color:#F7F8F8;
+  padding:20px;
+}
+.b4-text{
+  width:90%;
+  margin:20px;
+  
+}
+.box-in-b4 img{
+  width:100%;
+  height:100%;
+}
+.box-in-b4 button{
+  background-color:red;
+  color:white;
+  border:1px solid red;
+  border-radius:3px;
+  padding:5px;
+}
+.box-in-b4 span{
+  color:red;
+}
+.b4-footer a{
+  color:royalblue;
+}
+ /*---------------------------------------
+ FOOTER THE LAST PART OF SITE .....
+ BUT HERE I WILL BE STYLING THE TOP 
+ WITH DIFFERENT COLOR
+ -----------------------------------------*/
+footer{
+  width:100%;
+  height:100%;
+  background-color:#37475A;
+  
+}
+.top-in-footer{
+  width:100%;
+  height:45px;
+  background:#37475A;
+  color:white;
+  text-align: center;
+  padding-top:10px;
+}
+.top-in-footer a{
+  font-size:10pt;
+}
+.flex-1-infooter{
+  width:100%;
+  height:270px;
+  display:flex;
+  background:#232E3E;
+  justify-content: space-between;
+}
+.flex-1-infooter div{
+  width:40%;
+  height:100%
+}
+.flex-1-infooter div li{
+  padding:10px;
+  font-size: 10pt;
+}
+.last-footer{
+  width:100%;
+  height:100%;
+  background-color:#0D141E;
+  color:white;
+}
+.in-last-footer{
+  display: flex;
+  align-items: Center;
+  padding:20px;
+  margin-left:18%;
+  font-size:10pt;
+  font-weight:300;
+  text-align: center;
+}
+.in-last-footer div{
+  padding:10px;
+}
+footer p{
+  text-align: center;
+  font-size:10pt;
+}
+.in2-last-footer{
+  display: flex;
+  align-items: Center;
+  margin:15px;
+  font-size:10pt;
+  font-weight:300;
+  text-align: center;
+  justify-content: space-between;
+}
+.p2{
+  text-align: center;
+  font-size: 10pt;
+  font-weight:300;
+}
+/*--------------------------------------
+         LI & A DEFAULT STYLE
+--------------------------------------*/
+
+a, li{
+  text-decoration: none;
+  list-style: none;
+  color:white;
+}
